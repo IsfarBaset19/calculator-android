@@ -45,8 +45,8 @@
 
     <Button
         android:id="@+id/ModeButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="94dp"
+        android:layout_height="55dp"
         android:layout_marginEnd="44dp"
         android:text="Mode"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -101,19 +101,19 @@
 
     <Button
         android:id="@+id/ClearButton"
-        android:layout_width="86dp"
-        android:layout_height="37dp"
-        android:layout_marginEnd="172dp"
+        android:layout_width="102dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="164dp"
         android:text="Clear"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/FromText"
-        app:layout_constraintVertical_bias="0.071" />
+        app:layout_constraintVertical_bias="0.073" />
 
     <Button
         android:id="@+id/CalculateButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="110dp"
+        android:layout_height="55dp"
         android:text="Calculate"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/ClearButton"
